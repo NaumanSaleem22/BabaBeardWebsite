@@ -1,0 +1,39 @@
+hr{
+    border: 1px solid black;
+}
+.dvfaqs1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+
+.faqsmainheading{
+font-family: ChocolateBox;
+font-size:50px ;
+font-weight: bold;
+text-align: center;
+
+color: rgb(83, 83, 83)
+}
+.faqquestionheading{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: ChocolateBox;
+    font-size:30px ;
+    font-weight: bold;
+    color: rgb(99, 98, 98)
+
+}
+.faqques{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(99, 98, 98)
+}
+
+.faqans{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(99, 98, 98)
+}
