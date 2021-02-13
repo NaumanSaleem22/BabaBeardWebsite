@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BB - Ingredients</title>
+    <link href="landingpageBB.css" rel="stylesheet" />
+    <link href="Ingredients.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+
+    <div class="container-fluid dv1">
+
+
+
+
+    </div>
+
+
+    <div class="container-fluid dvnav">
+        <div class="row justify-content-between">
+            <div class="col-lg-5 col-sm-12 col-md-6 navbarcontent1">
+                <ul>
+                    <li><a href="landingpageBB.html">Home</a> </li>
+                    <li> <a href="About.html">About</a></li>
+                    <li> <a href="Shop.html">Shop</a></li>
+                    <li> <a href="FAQS.html">FAQS</a> </li>
+                    <li> <a href="Ingredients.html">Ingredients</a></li>
+                    <li> <a href="#">Blogs</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-5 col-sm-12 col-md-4 navbarcontent2">
+                <a href="landingpageBB.html"> <img class="nav2img" src="Content/PNG/Silver.png"> </a>
+            </div>
+
+            <div class="col-lg-2 col-sm-12 col-md-2 btnnav">
+                <button class="btnnav1"> <img src="Content/PNG/loginavatar.png" width="20px" height="20px">
+                    Login</button>
+                <button class="btnnav2">Signup</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <div class="container ingredienthead">
+
+
+        <div style="text-align:center">
+            <h2>Ingredients</h2>
+            <p>Click on the boxes below:</p>
+        </div>
+    </div>
+    <!-- Three columns -->
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-4 col-sm-12 col-md-4" onclick="openTab('b1');" style="cursor: pointer;">
+                <div>
+                    <img class="ingimage1" src="Content/PNG/Activate W.R..png">
+                    <div class="Ingredientimgoverlay Ingredientimgoverlay--blur">
+                        <div class="IngredientTitle">Activate</div>
+
+                        <div class="divbtning IngredientDescription">
+
+                            <button class="btningredients">
+                                View ingredients
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-lg-4 col-sm-12 col-md-4" onclick="openTab('b2');" style="cursor: pointer;">
+                <div>
+                    <img class="ingimage1" src="Content/PNG/Fill Patches W.R..png">
+                    <div class="Ingredientimgoverlay Ingredientimgoverlay--blur">
+                        <div class="IngredientTitle">Fill Patches</div>
+
+                        <div class="divbtning IngredientDescription">
+
+                            <button class="btningredients">
+                                View ingredients
+                            </button>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-12 col-md-4" onclick="openTab('b3');" style="cursor: pointer;">
+                <div>
+                    <img class="ingimage1" src="Content/PNG/Nourish W.R..png">
+                    <div class="Ingredientimgoverlay Ingredientimgoverlay--blur">
+                        <div class="IngredientTitle">Nourish</div>
+                        <div class="divbtning IngredientDescription">
+
+                            <button class="btningredients">
+                                View ingredients
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+
+
+            <!-- Full-width columns: (hidden by default) -->
+            <div id="b1" class="containerTab" style="display:none;">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <div class="MainTitle"> Activate</div> 
+                <div class="container">
+
+
+                    <div class="row justify-content-around">
+                        <div class="col-lg-6 col-sm-6 col-md-4 act1">
+                            <p class="Title">Argan Oil  </p>
+                            <p class="Description">It will make hair soft and shiny, and prevent skin inflammation,
+                                acne and flaky</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-md-4 act2">
+                            <img src="Content/PNG/oil.png/argan.png" width="360px" height="300px" style="padding-left: 30px;">
+                        </div>
+                    </div>
+
+
+                    <div class="row justify-content-around">
+                        <div class="col-lg-6 col-sm-6 col-md-4 act1">
+                            <p class="Title">Jojoba Oil</p>
+                            <p class="Description">Extremely nourishing to damaged skin and hair, helps to prevent
+                                protein and moisture loss in hair, protects against the sun with a thin lipid layer.</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-md-4 act2">
+                            <img src="Content/PNG/oil.png/jojoba_oil.png" width="320px" height="300px">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-around">
+                        <div class="col-lg-6 col-sm-6 col-md-4 act1">
+                            <p class="Title">Eucalyptus</p>
+                            <p class="Description">Stimulates hair follicles and makes edges of hair soft. Gives
+                                your beard a
+                                pleasant smell.</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-md-4 act2">
+                            <img src="Content/PNG/oil.png/eucalyptus.png" width="470px" height="340px" style="padding-left: 60px;">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-around">
+                        <div class="col-lg-6 col-sm-6 col-md-4 act1">
+                            <p class="Title">Rosemary</p>
+                            <p class="Description">
+                                Gets easily absorbed into your bloodstream and stimulates hair
+                        follicles.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-md-4 act2">
+                            <img src="Content/PNG/oil.png/rosemary_oil_seed.png" width="470px" height="300px"  style="padding-left: 15px;">
+                        </div>
+                    </div>
+
+
+
+                </div>
+            
+             
+            </div>
+
+            <div id="b2" class="containerTab" style="display:none;">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <div class="MainTitle"> Fill Patches</div> 
+                <div class="container">
+
+
+                    <div class="row justify-content-around">
+                        <div class="col-lg-6 col-sm-6 col-md-4 act1">
+                            <p class="Title">Argan Oil  </p>
+                            <p class="Description">It will make hair soft and shiny, and prevent skin inflammation,
+                                acne and flaky</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-md-4 act2">
+                            <img src="Content/PNG/oil.png/argan.png" width="350px" height="300px" style="padding-left: 20px;">>
+                        </div>
+                    </div>
+
+
+                    <div class="row justify-content-around">
+                        <div class="col-lg-6 col-sm-6 col-md-4 act1">
+                            <p class="Title">Castor Oil</p>
+                            <p class="Description">Seals in moisture to thicken hair, prevent breakage, and split
+                                ends. It also has
+                                antibacterial, anti-inflammatory and antifungal properties which can detoxify and treat
+                                infection while stimulating blood circulation to the skin.s</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-md-4 act2">
+                            <img src="Content/PNG/oil.png/castor_oil.png" width="370px" height="380px" >
+                        </div>
+                    </div>
+
+                   
+
+                    <div class="row justify-content-around">
+                        <div class="col-lg-6 col-sm-6 col-md-4 act1">
+                            <p class="Title">Rosemary</p>
+                            <p class="Description">
+                                Gets easily absorbed into your bloodstream and stimulates hair
+                        follicles.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-md-4 act2">
+                            <img src="Content/PNG/oil.png/rosemary_oil_seed.png"  width="470px" height="300px"  style="padding-left: 15px;">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-around">
+                        <div class="col-lg-6 col-sm-6 col-md-4 act1">
+                            <p class="Title">Tea Tree</p>
+                            <p class="Description">
+                                Protects facial hair, helps to unclog pores, gives your hair a
+                                non-greasy and
+                                healthy look.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-md-4 act2">
+                            <img src="Content/PNG/oil.png/tea tree.png" width="420px" height="330px"  style="padding-left: 70px;">
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+            
+             
+            </div>
+            </div>
+
+            <div id="b3" class="containerTab" style="display:none;">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <div class="MainTitle"> Nourish</div> 
+                <div class="container">
+
+
+                    <div class="row justify-content-around">
+                        <div class="col-lg-6 col-sm-6 col-md-4 act1">
+                            <p class="Title">Jojoba Oil</p>
+                            <p class="Description">Extremely nourishing to damaged skin and hair, helps to prevent
+                                protein and moisture loss in hair, protects against the sun with a thin lipid layer.</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-md-4 act2">
+                            <img src="Content/PNG/oil.png/jojoba_oil.png" width="340px" height="300px" >
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-around">
+                        <div class="col-lg-6 col-sm-6 col-md-4 act1">
+                            <p class="Title">Sweet Almond Oil  </p>
+                            <p class="Description">It helps normalize the pH levels of the skin under the beard
+                                and is known
+                                for its ability to soothe inflamed skin, preventing beard itch while conditioning hair.</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-md-4 act2">
+                            <img src="Content/PNG/oil.png/sweet_almond_oil.png" width="360px" height="350px">
+                        </div>
+                    </div>
+
+
+                   
+
+
+                    <div class="row justify-content-around">
+                        <div class="col-lg-6 col-sm-6 col-md-4 act1">
+                            <p class="Title">Peppermint</p>
+                            <p class="Description"> It helps to stimulate better blood flow beneath the skin which
+                                brings more
+                                nutrients to the hair follicles.</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-md-4 act2">
+                            <img src="Content/PNG/oil.png/peppermint_oil_.png" width="320px" height="300px"  style="padding-left: 50px;">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-around">
+                        <div class="col-lg-6 col-sm-6 col-md-4 act1">
+                            <p class="Title">Lavender</p>
+                            <p class="Description">
+                                It has a calming fragrance and helps to grow hair thicker and
+                                faster.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-md-4 act2">
+                            <img src="Content/PNG/oil.png/lavendar.png" width="470px" height="300px"  style="padding-left: 45px;">
+                        </div>
+                    </div>
+
+
+
+                </div>
+            
+             
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="row Footerrow">
+            <div class="col-lg-6 col-sm-12 col-md-6 Footer1">
+                <div class="logo17">
+                    <p style="font-size:25px; margin-top: 10px;"> <a href="#"> <img src="Content/PNG/Silver Logo.png"
+                                width=40px; height=40px;> </a>
+                        BabaBeard<strong>BB</strong> </p>
+
+                </div>
+                <div style="width: 340px;
+                height: 61.57px; font-weight: 500;
+                font-size: 16px; line-height: 30px;">
+                    BabaBeard is a private beard oil company that manufacture 100% organic beard oil.
+                </div>
+                <div>
+                    <img src="Facebook.jpg" width="30px" height="30px">
+                    <img src="Instagram.jpg" width="30px" height="30px">
+                    <img src="Twitter.jpg" width="30px" height="30px">
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-6 col-md-2 Footer2">
+                <div style="font-size:larger ;font-weight: 700;">Product</div>
+                <div style="font-size:large ; margin-top:20px;">
+                    <p> <a class="linktag" href="RewardPolicy.html"> Reward Policy</a></p>
+                    <p> <a class="linktag" href="ReplacingPolicy.html">Replacing Policy </a></p>
+                    <p> <a class="linktag" href="RefundPolicy.html"> Refund Policy</a></p>
+
+                    <p> <a class="linktag" href="Blogs.html">Blogs </a></p>
+
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-6 col-md-2 Footer3">
+                <div style="font-size:larger ;font-weight: 700;">Engage</div>
+                <div style="font-size:large ; margin-top:20px;">
+                    <p> <a class="linktag" href="landingpageBB.html">BabaBeard</a> </p>
+                    <p> <a class="linktag" href="FAQS.html"> FAQS</a></p>
+                    <p> <a class="linktag" href="RewardPolicy.html"> Rewards</a></p>
+                    <p> <a class="linktag" href="About.html"> About Us</a></p>
+                    <p> <a class="linktag" href="PrivacyPolicy.html"> Privacy Policy</a></p>
+                    <p> <a class="linktag" href="Terms.html"> Terms of Service </a></p>
+
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-2 Footer4">
+                <div style="font-size:larger ;font-weight: 700;">Contact</div>
+                <div style="font-size:large ; margin-top:20px;">
+                    <p><a class="linktag" href="contactus.html"> Contact us <a> </p>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script>
+        function openTab(tabName) {
+            var i, x;
+            x = document.getElementsByClassName("containerTab");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(tabName).style.display = "block";
+
+
+
+        }
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>

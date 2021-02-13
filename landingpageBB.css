@@ -10,6 +10,14 @@ body{
   padding: 0;
 }
 
+.linktag{
+  text-decoration: none;
+  color: white;
+}
+.linktag:hover{
+  text-decoration: none;
+  color: gray;
+}
 .dvnav{
   
   background-color:#2b2929;
@@ -227,7 +235,7 @@ color:#909191;
 background-repeat: no-repeat;
  background-position:center;
  background-size: cover; 
- height:900px;
+ height:800px;
     }
 
 
@@ -547,6 +555,7 @@ height:450px;
     }
     .Footerrow{
       background-color:rgb(38, 40, 43);
+      margin-top: 70px ;
      
   }
   .Footer1 ,.Footer2 ,.Footer3 , .Footer4{
