@@ -1,0 +1,228 @@
+
+.banner{
+    background-color:#2b2929 ;
+    height: 650px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 88%, 50% 100%, 25% 88%, 0% 75%);
+  
+}
+
+.middlepic{
+    width: 100%;
+    max-width: 420px;
+    height: 440px;
+    object-fit: contain;
+}
+
+.leftpic{
+    width: 100%;
+   max-width: 600px;
+    height: 420px;
+    object-fit: contain;
+    padding-top: 80px;
+   
+    
+}
+
+.rightpic{
+    width: 100%;
+    max-width: 560px;
+     height: 410px;
+     object-fit: contain;
+     padding-top: 90px;
+   
+   
+}
+
+.mustache{
+    width:420px;
+    height:30px;
+ 
+    padding-left:100px;
+    padding-right: 100px;
+}
+.shopnow {
+ 
+  font-size: 34px;
+ text-align: center; 
+   font-weight: 700;
+}
+.shopnowlink{
+    text-decoration: none;
+     color:rgb(165, 168, 172);
+}
+.shopnowlink:hover{
+    color: white;
+    text-decoration: none;
+}
+@media screen and (max-width: 1300px) {
+
+
+    .banner{
+        background-color:#2b2929 ;
+        height: 490px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 88%, 50% 100%, 25% 88%, 0% 75%);
+      
+    }
+    
+    .middlepic{
+        width: 100%;
+        max-width: 420px;
+        height: 440px;
+        object-fit: contain;
+    }
+    
+    .leftpic{
+        display: none;
+    }
+    
+    .rightpic{
+   display: none;
+}
+
+
+.mustache{
+    width:420px;
+    height:60px;
+    padding-top:20px;
+    padding-left:100px;
+    padding-right: 100px;
+}
+
+}
+
+
+   
+   @media screen and (max-width: 766px) {
+
+
+    .banner{
+        background-color:#2b2929 ;
+        height: 490px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 88%, 50% 100%, 25% 88%, 0% 75%);
+      
+    }
+    
+    .middlepic{
+        width: 100%;
+        max-width: 420px;
+        height: 440px;
+        object-fit: contain;
+    }
+    
+    .leftpic{
+        display: none;
+    }
+    
+    .rightpic{
+   display: none;
+    }
+
+   .mustache{
+    width:420px;
+    height:60px;
+    padding-top:20px;
+    padding-left:100px;
+    padding-right: 100px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   @media screen and (max-width: 574px) {
+
+
+    .banner{
+        background-color:#2b2929 ;
+        height: 490px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 88%, 50% 100%, 25% 88%, 0% 75%);
+      
+    }
+    
+    .middlepic{
+        width: 100%;
+        max-width: 360px;
+        height: 340px;
+        object-fit: contain;
+    }
+    
+    .leftpic{
+        display: none;
+    }
+    
+    .rightpic{
+   display: none;}
+    
+
+
+
+   .mustache{
+    width:420px;
+    height:60px;
+    padding-top:20px;
+    padding-left:100px;
+    padding-right: 100px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 360px) {
+
+
+    .banner{
+        background-color:#2b2929 ;
+        height: 490px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 88%, 50% 100%, 25% 88%, 0% 75%);
+      
+    }
+    
+    .middlepic{
+        width: 100%;
+        max-width: 420px;
+        height: 440px;
+        object-fit: contain;
+    }
+    
+    .leftpic{
+        display: none;
+    }
+    
+    .rightpic{
+   display: none;
+    }
+
+
+   .mustache{
+    width:420px;
+    height:60px;
+    padding-top:20px;
+    padding-left:20px;
+    padding-right: 20px;
+}
+}

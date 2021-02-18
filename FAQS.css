@@ -9,7 +9,7 @@ hr{
 
 .faqsmainheading{
 font-family: ChocolateBox;
-font-size:50px ;
+font-size:3.125rem ;
 font-weight: bold;
 text-align: center;
 
@@ -19,19 +19,19 @@ color: rgb(83, 83, 83)
     margin-top: 50px;
     margin-bottom: 20px;
     font-family: ChocolateBox;
-    font-size:30px ;
+    font-size:1.875rem ;
     font-weight: bold;
     color:  rgb(56, 54, 54);
 
 }
 
 .faqans{
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: 'Poppins', sans-serif;
     color: rgb(99, 98, 98);
 }
 .collapsible {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     color: rgb(56, 54, 54);
@@ -59,7 +59,7 @@ color: rgb(83, 83, 83)
   }
   .collapsible:after {
     content:  "▼"; /* Unicode character for "plus" sign (+) */
-    font-size: 33px;
+    font-size: 2.063rem;
     color: rgb(0, 0, 0);
     float: right;
    
@@ -68,3 +68,8 @@ color: rgb(83, 83, 83)
   .active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
   }
+
+  @media (min-width:400px){
+    html{
+      font-size: 80%;
+    }}

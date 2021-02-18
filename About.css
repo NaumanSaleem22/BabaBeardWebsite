@@ -13,14 +13,20 @@ hr{
 
 .dvaboutfont1{
 font-family: ChocolateBox;
-font-size:50px ;
+font-size:3.125rem ;
 font-weight: bold;
 text-align: center;
 color: rgb(83, 83, 83)
 }
 .aboutcontent{
-    font-size: 18px;
+    font-size:1.125rem ;
   
+    font-family: 'Poppins', sans-serif;
+    color: rgb(99, 98, 98)
+}
+.aboutcontent2{
+    font-size: 1.125rem;
+  text-align: center;
     font-family: 'Poppins', sans-serif;
     color: rgb(99, 98, 98)
 }
@@ -46,4 +52,11 @@ color: rgb(83, 83, 83)
 }
 .btnemailsignup:hover{
     background-color:gray;
+}
+
+
+@media (min-width:400px){
+    html{
+      font-size: 80%;
+    }
 }
